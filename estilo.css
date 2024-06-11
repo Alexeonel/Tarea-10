@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+#contenedor{
+    font-family: Quicksand;
+}
+#cabecera{
+    background-color: brown;
+    height: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+#cabecera h1,a{
+    margin:0px 20px 0px 20px;
+    width: 20% auto;
+    color: whitesmoke;
+}
+#cabecera h1:hover{
+    color: gray;
+}
+#menu{
+    width: 60%;
+}
+#menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:center ;
+    list-style-type: none;
+}
+#menu ul li,a{
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+menu ul li,a:hover{
+    color: azure;
+    
+}
+#otro ul{
+    list-style-type: none ;
+    display: flex;
+    padding: 5px;
+}
+#otro ul a{  
+    color: black;
+    font-size: 12pt;
+    height: auto;
+}
+#cuerpo{
+    height: 800px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0px 50px 0px;
+}
+#grafico{
+    margin: 40px 40px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 900px;    
+}
+#grafico h3{
+    border-bottom:2px solid brown ;
+    padding-bottom: 10px;
+    font-size: 30pt;
+    margin-bottom: 20px;
+}
+#grafico p{
+    padding-bottom: 10px;
+    margin-bottom: 8px;
+}
+#grafico table{
+    border-collapse: collapse;
+}
+#grafico table td,th{
+    border: 4px solid white;
+    width: 120px; 
+}
+.color{
+    background-color: brown;
+    color: white;
+}
+#tablauno{
+    background-color: rgba(223, 223, 183, 0.859);
+}
+.colordos{
+    background-color: rgba(255, 166, 0, 0.822);
+    color: white;
+}
+#tablados {
+    background-color: brown;
+    color: white;
+}
+
+#formulario form{
+    background-color:rgba(223, 223, 183, 0.859) ;
+    padding: 10px;
+    margin-left: 50px;
+    border-radius: 10px;
+    height: 97.4%;
+    width: 30%;
+}
+#formulario h3{
+    font-size: 24pt;
+    border-bottom: 4px solid brown;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+#formulario p{
+    text-align: start;
+    font-size: 15pt;
+   
+}
+#formulario form{
+    width: 370px;  
+}
+#formulario select,input{
+ width: 350px;
+ height: 40px;
+ border-radius: 5px;
+ font-size: 15pt;
+}
+#formulario div input{
+    padding: 15px 30px 15px 30px;
+    width: auto;
+    height: 60px;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+}
+#formulario div input:hover{
+    color: gray;
+}
+#video{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px
+}
+#video iframe{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 200px;
+
+}
+#pie{
+    background-color: brown;
+    height: 200px auto ;
+    display: flex;
+    padding:20px ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+}
+#pie article{
+    font-size: large;
+}
+#pie h4{
+    padding: 10px;
+    font-size: x-large;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+/*CONTACTENOS*/
+#contactenos{
+    width: 100% auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+}
+#informacion{
+    width: 300px auto;
+    margin: 20px;
+}
+#informacion h1{
+    color: brown;
+}
+#informacion h2{
+    font-size: 12pt;
+}
+.box{
+    display: flex;
+}
+.box p{
+    margin: 10px 0px 10px 5px;
+}
+#contactenos form{
+    margin: 10px;
+    width: 80%;
+}
+#contactenos form input{
+    width: 120%;
+}
+#contactenos form h1{
+    color: brown;
+    margin-bottom: 10px;
+}
+
+#contactenos form input{
+    margin: 10px 0px 10px 0px;
+}
+#enviar input{
+    width: 100%;
+    margin: 10px;
+    color: white;
+    background-color: gray;
+}
+
+#mapa{
+    margin: 20px;
+    width: auto;
+}
